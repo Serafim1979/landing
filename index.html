@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,41 +14,220 @@
 </head>
 <body>
     <!-- ShowCase & Nav-->
-    <div id="showcase"></div>
-    <header>
-        <nav class='cf'>
-            <ul class='cf'>
-              <li>
-                <a href='#showcase'>myTunes</a>
-              </li>
-              <li>
-                <a href='#showcase'>Overview</a>
-              </li>
-              <li>
-                <a href='#music'>Music</a>
-              </li>
-              <li>
-                <a href='#video'>Video</a>
-              </li>
-              <li>
-                <a href='#gift-cards'>Gift Cards</a>
-              </li>
-            </ul>
-            <a href='#' id='openup'>myTunes</a>
-          </nav>
-    </header>
+    <div id="showcase">
+        <header>
+            <nav class='cf'>
+                <ul class='cf'>
+                    <li class="hide-on-small">
+                        <a href='#showcase'>myTunes</a>
+                    </li>
+                    <li>
+                        <a href='#showcase'>Overview</a>
+                    </li>
+                    <li>
+                        <a href='#music'>Music</a>
+                    </li>
+                    <li>
+                        <a href='#video'>Video</a>
+                    </li>
+                    <li>
+                        <a href='#gift-cards'>Gift Cards</a>
+                    </li>
+                    </ul>
+                <a href='#' id='openup'>myTunes</a>
+            </nav>
+        </header>
+          <div class="section-main container">
+              <h1>myTunes.</h1>
+              <h2>Your music, movies, and TV shows take center stage.</h2>
+              <p class="lead hide-on-small">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, 
+                  eius similique dolor sequi quis, nesciunt, dicta nostrum quisquam alias voluptatibus 
+                  animi suscipit excepturi omnis optio recusandae. Voluptatibus omnis corrupti cumque!
+                  Dignissimos ab architecto ex eum possimus sapiente sequi, fugit fuga itaque excepturi qunt saepe optio exercitationem sequi amet.
+              </p>
+          </div>
+        </div>
 
     <!-- Music Section-->
+    <section id="music" class="section">
+        <div class="container">
+            <h2 class="section-head">
+                <i class="fas fa-music"></i> Music
+            </h2>
+            <h3>45 million songs. Zero ads.</h3>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, reprehenderit 
+                odio cum asperiores quia, dolore dolores aliquid esse animi nihil laborum, 
+                laudantium beatae mollitia tempora facere doloribus illum dicta!
+                Quod ipsa molestiae dignissimos ea. Veniam eveniet iste necessitatibus eum ab 
+                nemo a illum ullam ratione odio? Saepe recusandae ea, cum quas quaerat sint odio accusantium animi magni quam minus.
+                Sunt porro reprehenderit suscipit, accusantium quis expedita dolores maiores repudiandae. Inventore explicabo rationeitibus minima accusamus.
+            </p>
+            <a href="#" class="btn btn-primary mb">Start Your Trial Now</a>
+            <p class="text-light">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia incidunt atque ex exercitationem 
+                numquam deserunt rerum, debitis, optio, officia ab labore necessitatibus modi reprehenderit eligendi. 
+                Ad rem eaque voluptatum quod!
+            </p>
+            <img src="/img/mockup1.png" alt="">
+        </div>
+    </section>
 
     <!-- Video Section-->
+    <section id="video" class="section bg-light">
+        <div class="container">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde dolorem 
+                incidunt dolore expedita, asperiores dicta maxime et dignissimos odio eum rerum beatae!</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates tempore fuga corrupti sed 
+                quo repellendus vitae adipisci quibusdam excepturi, 
+                sint aliquid, doloribus iste nisi, voluptate ipsum error praesentium voluptatum voluptatibus!
+                Culpa obcaecati debitis eaque in temporibus dicta aut, minima magni repellendus esse harum 
+                quidem asperiores quia impedit ipsa accusamus sit dolore tempora, ab, excepturi ea! In voluptates voluptatum iure nobis.
+            </p>  
+            <a href="#" class="btn btn-secondary">Read More</a>  
+            <img src="/img/mockup2.png" alt="">
+        </div>
+    </section>
 
     <!--Entertainment Section-->
+    <section id="entertainment" class="section">
+        <div class="container">
+            <h3>A world of entertainment. Available wherever you are.</h3>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Impedit alias ea excepturi consequatur debitis consequuntur sit fugit 
+                vitae fuga. Reprehenderit sapiente recusandae rem tempore vitae, 
+                provident ut repudiandae nihil et? Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Omnis corporis fugiat perferendis et nisi doloremque. 
+                Consequatur nesciunt natus modi beatae, hic similique minima necessitatibus 
+                consectetur ex accusantium quam! Accusantium, iure.</p>
+        </div>
+    </section>
 
     <!-- Gift Card Section-->
+    <section id="gift-cards" class="section bg-light">
+        <div class="container">
+            <div class="gift-cards">
+                <div>
+                    <img src="img/cards.png" alt="">
+                </div>
+                <div>
+                    <h2>Gift Cards</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum 
+                        recusandae iure, rem incidunt minus aliquam aut expedita magnam 
+                        nulla molestias beatae qui. Atque voluptate dolore nulla magnam 
+                        cum dolores! Amet!Magnam deserunt ea nostrum consequuntur vel 
+                        repudiandae deleniti nam facilis libero eaque, enim autem dolores 
+                        assumenda inventore laudantium dolore optio, eligendi cum? Facilis 
+                        minus iste pariatur inventore, enim eius quibusdam?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi 
+                        fugiat harum officiis quo modi ipsam ullam maxime magnam, numquam 
+                        ratione possimus optio, blanditiis, qui laborum rerum nulla obcaecati 
+                        deserunt?
+                    </p>
+                    <hr>
+                    <a href="#" class="text-secondary">
+                        <i class="fas fa-chevron-right"></i>
+                        Redeem
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-cols">
+                <ul>
+                    <li>Shop & Learn</li>
+                    <li>
+                        <a href="#">Music</a>
+                    </li>
+                    <li>
+                        <a href="#">Movies</a>
+                    </li>
+                    <li>
+                        <a href="#">Shows</a>
+                    </li>
+                    <li>
+                        <a href="#">Apps</a>
+                    </li>
+                    <li>
+                        <a href="#">Gift Cards</a>
+                    </li>
+                </ul>
 
+                <ul>
+                    <li>Orange Store</li>
+                    <li>
+                        <a href="#">Find a Store</a>
+                    </li>
+                    <li>
+                        <a href="#">Today at Orange</a>
+                    </li>
+                    <li>
+                        <a href="#">Orange Camp</a>
+                    </li>
+                    <li>
+                        <a href="#">Financing</a>
+                    </li>
+                    <li>
+                        <a href="#">Order Status</a>
+                    </li>
+                </ul>
 
+                <ul>
+                    <li>Education & Business</li>
+                    <li>
+                        <a href="#">Orange & Education</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop For College</a>
+                    </li>
+                    <li>
+                        <a href="#">Orange & Business</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop For Business</a>
+                    </li>
+                    <li>
+                        <a href="#">Jobs</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>About Orange</li>
+                    <li>
+                      <a href="#">Newsroom</a>
+                    </li>
+                    <li>
+                      <a href="#">Orange Leadership</a>
+                    </li>
+                    <li>
+                      <a href="#">Investors</a>
+                    </li>
+                    <li>
+                      <a href="#">Events</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact Orange</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            Copyright &copy; 2018 Orange myTunes
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
